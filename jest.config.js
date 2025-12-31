@@ -7,6 +7,9 @@ const config = {
   preset: '@shelf/jest-mongodb',
   transform: {
     '.+\\.ts$': 'ts-jest'
+  },
+  globals: {
+    __MONGO_CONFIG__: './jest-mongodb-config.js'
   }
 }
 
