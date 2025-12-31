@@ -1,10 +1,10 @@
 module.exports = {
   mongodbMemoryServerOptions: {
     binary: {
-      version: '4.0.3', // Verificar versão do MongoDB utilizado em produção
+      version: '7.0.5',
       skipMD5: true
     },
-    autoStart: false,
+    autoStart: true,
     instance: {}
   }
 }
